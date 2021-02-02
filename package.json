@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index.js" 
+    "start": "node index.js"
   },
   "author": "Michal Szczepanik",
   "license": "ISC",
   "devDependencies": {
     "nodemo": "^1.0.0",
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "graphql": "^15.5.0"
   }
 }
