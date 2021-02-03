@@ -16,6 +16,6 @@ const data = {
     pets: ['Dog, Cat, Bat']
 }
 
-const server = new ApolloServer({ typeDefs, rootValue: data })
+const server = new ApolloServer({ typeDefs, rootValue: data, playground: true, introspection: true })
 
 server.listen({port: PORT}).then(res => res.url)
